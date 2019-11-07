@@ -1,0 +1,89 @@
+body{
+    background-image: linear-gradient(red, pink);
+
+}
+header {
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: red;
+
+    
+}
+a{
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+}
+
+footer{
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+
+}
+
+
+img{
+width: 350px;
+height: 350px;
+border-radius: 20px;
+}
+
+.PictureAndButtons{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.Picture{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 50px;
+    width: 450px;
+    height: 450px;
+    background-color: beige;
+    box-shadow: 3px 6px; 
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    
+    
+}
+
+button{
+    height: 100px;
+    width: 300px;
+    margin-bottom: 50px;
+    border-radius: 35px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    box-shadow: 2px 4px;;
+}
+
+#No{
+    background-color: crimson;
+    font-size: 40px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+
+#Yes{
+    background-color: Green;
+    font-size: 40px;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+
+}
