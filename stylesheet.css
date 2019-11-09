@@ -5,7 +5,7 @@ body{
 .container    {
     background-color: white;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     color: #fd297b;
     font-family: 'Muli', sans-serif;
     text-align: center;
@@ -13,17 +13,17 @@ body{
     overflow: auto;
     padding: 0px;
   }
-a{
+footer a{
     font-size: 30px;
     color: #fd297b;
     text-decoration: none;
 }
 
 
-ul li{
-    display: inline-block; 
+ul li {
+    display: inline-block;
     padding:10px;
-    font-size:20px; 
+    font-size:20px;
     font-family: Montserrat;
   }
 
@@ -55,7 +55,7 @@ footer{
     display: flex;
     justify-content: center;
 
-    
+
 }
 
 .Picture{
@@ -75,8 +75,8 @@ footer{
     flex-direction: row;
     justify-content: center;
     justify-content: space-around;
-    
-    
+
+
 }
 
 button{
@@ -118,5 +118,45 @@ nav{float:right;}
 
 .logo img{
     float:left;
-    height: 75px;
+    height: 60px;
+}
+
+/***********/
+.nav_bar {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px, auto;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+  width: 45%;
+  border-radius: 8px;
+  align-items: center;
+}
+
+ul li {
+  display: inline-block;
+  font-family: Montserrat;
+  font-size: 20px;
+  padding: 0px;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: white;
+  padding: 14px 16px;
+  color: #FD297B;
+}
+
+.nb_wrap {
+  text-align:center;
+  margin: 0px;
+  align-content: center;
 }
