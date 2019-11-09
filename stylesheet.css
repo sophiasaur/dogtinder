@@ -1,38 +1,54 @@
 body{
-    background-image: linear-gradient(red, pink);
+    margin: 0px;
 
 }
-header {
-    background-color: beige;
-    display: flex;
+.container    {
+    background-color: #424242;
     align-items: center;
     padding: 20px;
-    color: red;
-
-    
-}
+    color: #fd297b;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    clear:both;
+    overflow: auto;
+    padding: 0px;
+  }
 a{
     font-size: 30px;
     color: red;
     text-decoration: none;
 }
 
+
+ul li{
+    display: inline-block; 
+    padding:10px;
+    font-size:20px; 
+    font-family: Montserrat;
+  }
+
+ul li:hover {
+    color: #d12165;
+    transition: all 0.4s ease 0s;
+
+}
 footer{
-    background-color: beige;
+    background-color: #424242;
     display: flex;
     align-items: center;
     flex-direction: row;
     padding-top: 50px;
     padding-bottom: 50px;
     justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+
 
 }
 
+.dogPhotos{
+    width: 350px;
+    height: 350px;
 
-img{
-width: 350px;
-height: 350px;
-border-radius: 20px;
 }
 
 .PictureAndButtons{
@@ -52,7 +68,6 @@ border-radius: 20px;
     width: 450px;
     height: 450px;
     background-color: beige;
-    box-shadow: 3px 6px; 
 }
 
 .buttons{
@@ -72,18 +87,36 @@ button{
     border-style: solid;
     border-width: 3px;
     border-color: black;
-    box-shadow: 2px 4px;;
 }
 
-#No{
-    background-color: crimson;
-    font-size: 40px;
-    font-family: sans-serif, 'Times New Roman', Times, serif;
+button:hover {
+    color: #ffffff ;
+    border-color: white;
+    transition: all 0.4s ease 0s;
 }
 
-#Yes{
-    background-color: Green;
+#noButton{
+    background-color:#FF5864 !important;
     font-size: 40px;
-    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
 
+}
+
+#yesButton{
+    background-color: #1FB186;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+nav{float:right;}
+
+.logo img{
+    float:left;
+    height: 75px;
 }
