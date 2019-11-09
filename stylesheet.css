@@ -15,7 +15,7 @@ body{
   }
 a{
     font-size: 30px;
-    color: red;
+    color: #fd297b;
     text-decoration: none;
 }
 
@@ -41,7 +41,7 @@ footer{
     padding-bottom: 50px;
     justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
-
+    color: #fd297b;
 
 }
 
