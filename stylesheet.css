@@ -5,13 +5,13 @@ body{
 .container    {
     background-color: white;
     align-items: center;
-    padding: 10px;
     color: #fd297b;
     font-family: 'Muli', sans-serif;
     text-align: center;
     clear:both;
     overflow: auto;
     padding: 0px;
+    height: 75px;
   }
 footer a{
     font-size: 30px;
@@ -20,17 +20,8 @@ footer a{
 }
 
 
-ul li {
-    display: inline-block;
-    padding:10px;
-    font-size:20px;
-    font-family: Montserrat;
-  }
-
-ul li:hover {
-    color: #d12165;
-    transition: all 0.4s ease 0s;
-
+a {
+    color: #fd297b;
 }
 footer{
     background-color: #424242;
@@ -114,24 +105,20 @@ h2 {
     font-family: 'Playfair Display', serif;
 }
 
-nav{float:right;}
 
+/**** nav bar css *******/
+.container {
+    padding: 0;
+}
 .logo img{
     float:left;
     height: 60px;
+    padding: 14px 16px;
 }
 
-/***********/
-.nav_bar {
-  list-style-type: none;
-  display: inline-block;
-  margin: 0px, auto;
-  padding: 0px;
-  overflow: hidden;
-  background-color: #333;
-  width: 45%;
-  border-radius: 8px;
-  align-items: center;
+nav{
+    color: #d12165;
+    height: 75px;
 }
 
 ul li {
@@ -143,20 +130,27 @@ ul li {
 
 li a {
   display: block;
-  color: white;
   padding: 14px 16px;
   text-decoration: none;
   text-align: center;
 }
 
 li a:hover {
-  background-color: white;
+  background-color: rgb(238, 23, 105);
   padding: 14px 16px;
-  color: #FD297B;
+  color: white;
+  transition: all 0.4s ease 0s;
 }
 
-.nb_wrap {
-  text-align:center;
-  margin: 0px;
-  align-content: center;
+ul {
+    float:right;
+  }
+
+/******/
+
+h1{
+    font-family: Montserrat;
+    color: #fd297b;
+    text-align: center;
+    padding-top: 30px;
 }

@@ -1,0 +1,36 @@
+    .contact {
+        align-items: center;
+    }
+
+    table {
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+
+    body{
+        align-items: center;
+    }
+
+    .contact img {
+        border-radius: 50%;
+        border-color: black;
+        border: 4px solid black;
+    }
+
+    th {
+        padding: 10px;
+    }
+@media only screen and (min-width: 999px) {
+    .person {
+        flex: auto;
+    }
+}
+
+@media only screen and (max-width: 998px) and (min-width: 400px){
+    .person {
+        flex-direction: column;
+    }
+
+}
