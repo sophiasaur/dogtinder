@@ -71,8 +71,6 @@ footer{
 }
 
 button{
-    height: 100px;
-    width: 300px;
     margin-bottom: 50px;
     border-radius: 35px;
     border-style: solid;
@@ -153,4 +151,9 @@ h1{
     color: #fd297b;
     text-align: center;
     padding-top: 30px;
+}
+@media only screen and (max-width: 998px) and (min-width: 400px){
+    footer a{
+        font-size: 20px;
+    }
 }
