@@ -33,4 +33,9 @@
         flex-direction: column;
     }
 
+@media only screen and (max-width: 399px) {
+    .person {
+        flex-direction: column;
+    }    
+    
 }
