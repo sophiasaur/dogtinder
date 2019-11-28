@@ -7,9 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Muli|Playfair+Display&display=swap" rel="stylesheet">
-
+        <script type="text/javascript" src="main_script.js"></script>
     </head>
-    <body>
+    <body onload="firstDog();">
 
             <div class="container">
                     <nav>
@@ -29,16 +29,16 @@
         <div class = "PictureAndButtons">
 
             <div class = "Picture">
-                <img class="dogPhotos" src="https://i.pinimg.com/originals/4f/1d/39/4f1d3983a80af217262033f02075a2f1.jpg" alt="Dog1">
+                <img class="dogPhotos" id="currentDog" src="https://i.pinimg.com/originals/4f/1d/39/4f1d3983a80af217262033f02075a2f1.jpg" alt="Dog1">
             </div>
         </div>
 
         <div class = "buttons">
             <div class = "button1">
-                    <button id = "noButton" type="button">Nope!</button>
+                    <button id = "noButton" type="button" onclick="dislike()">Nope!</button>
             </div>
             <div class = "button2">
-                    <button id = "yesButton" type="button">Like!</button>
+                    <button id = "yesButton" type="button" onclick="like()">Like!</button>
             </div>
 
         </div>
