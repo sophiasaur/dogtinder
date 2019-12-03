@@ -2,6 +2,9 @@ var allDogs = ["https://bit.ly/33vmrSh","https://bit.ly/37JYLNF","https://bit.ly
 
 var currentDog;
 
+//Clears local storage when page is refreshed (hopefully DB can be added later to save liked and dislikes)
+window.onload = window.localStorage.clear();
+
 // Loads the first dog by calling "next" method. Kind of unnecessary, but makes clearing the browser's storage between tests easier.
 function firstDog()
 {
