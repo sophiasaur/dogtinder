@@ -23,6 +23,8 @@ footer a{
 a {
     color: #fd297b;
 }
+
+
 footer{
     background-color: #424242;
     display: flex;
@@ -42,11 +44,49 @@ footer{
 
 }
 
+.Directions{
+    font-size: 30px;
+    color: #fd297b;
+    text-decoration: none;
+    margin: 5px;
+}
+
 .PictureAndButtons{
     display: flex;
     justify-content: center;
 
 
+
+}
+
+
+#htagL{
+    visibility: hidden;
+
+}
+
+#htagD{
+    visibility: hidden;
+}
+
+
+#likes{
+    visibility: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+#dislikes{
+    visibility: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .Picture{
